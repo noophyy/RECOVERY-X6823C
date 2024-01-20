@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/infinix/Infinix-X6823C
+DEVICE_PATH := device/infinix/X6823C
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -54,8 +54,8 @@ BOARD_MKBOOTIMG_ARGS += --ramdisk_offset $(BOARD_RAMDISK_OFFSET)
 BOARD_MKBOOTIMG_ARGS += --tags_offset $(BOARD_KERNEL_TAGS_OFFSET)
 BOARD_KERNEL_IMAGE_NAME := Image
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
-TARGET_KERNEL_CONFIG := Infinix-X6823C_defconfig
-TARGET_KERNEL_SOURCE := kernel/infinix/Infinix-X6823C
+TARGET_KERNEL_CONFIG := X6823C_defconfig
+TARGET_KERNEL_SOURCE := kernel/infinix/X6823C
 
 # Kernel - prebuilt
 TARGET_FORCE_PREBUILT_KERNEL := true
