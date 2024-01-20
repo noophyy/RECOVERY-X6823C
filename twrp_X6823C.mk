@@ -9,13 +9,13 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common Omni stuff.
-$(call inherit-product, vendor/omni/config/common.mk)
+$(call inherit-product, vendor/twrp/config/common.mk)
 
 # Inherit from Infinix-X6823C device
-$(call inherit-product, device/infinix/Infinix-X6823C/device.mk)
+$(call inherit-product, device/infinix/X6823C/device.mk)
 
-PRODUCT_DEVICE := Infinix-X6823C
-PRODUCT_NAME := omni_Infinix-X6823C
+PRODUCT_DEVICE := X6823C
+PRODUCT_NAME := twrp_X6823C
 PRODUCT_BRAND := Infinix
 PRODUCT_MODEL := Infinix X6823C
 PRODUCT_MANUFACTURER := infinix
